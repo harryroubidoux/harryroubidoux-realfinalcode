@@ -1,0 +1,195 @@
+header{
+    background-color: #0047aa;
+ 
+   
+}
+
+body{
+    background-color: #0047aa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.merch, .aboutimg{
+    background-color: lightgrey;
+    padding: 1rem;
+    border: black 2px solid;
+} 
+
+.checkout{
+    color: white;
+    
+    text-align: center;
+    padding: 2rem;
+    
+}
+nav{
+    display:flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+   
+
+}
+nav a{
+    background-color: white;
+    border: black 2px solid;
+    padding: .75rem;
+    text-decoration: none;
+    color: #0047aa;
+    max-height: 1rem;
+    text-align: center;
+    font-size: 13px;
+}
+nav a:hover{
+    background-color: #0047aa;
+    color: white;
+}
+
+
+.livetolisten{
+    
+        background-color: darkblue;
+        color: #fff;
+        padding: 1rem 2rem;
+        text-decoration: none;
+        position: fixed;
+        transform: rotate(270deg);
+        z-index: 1;
+        top: 75%;
+        right: -6.5rem;
+    
+   
+
+}
+.homenewmerch img {
+    max-width: 80%;
+}
+.merchimages{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 2rem;
+    
+}
+.morningbackground{
+   left: 10%;
+
+}
+.hostedby h1, .homenewmerch h1{
+    color: #0047aa;
+    background: white;
+    padding: 1rem;
+    
+    border: black 2px solid;
+}
+
+.hostedby img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+}
+.checkout a{
+    color: white;
+    text-decoration: none;
+    
+}
+.checkout a:hover{
+   
+    font-weight: 300;
+}
+.greendale{
+    display: flex;
+    justify-content: center;
+}
+.troy, .abed, .abouttheshow{
+    margin: 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.howto, .historic{
+    margin: 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.howto a{
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+}
+.howto a:hover{
+    font-weight: bold;
+}
+.merchpage, .bestdeals{
+    margin: 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.merchpage img{
+    background-color: lightgrey;
+    padding: 1rem;
+    border: black 2px solid;
+    max-width: 80%;
+}
+.bestdeals{
+    background: darkblue;
+    padding: 1rem;
+    border: black 2px solid;
+}
+.description, .form{
+    margin: 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.form{
+    background: darkblue;
+    padding: 1rem;
+    border: black 2px solid;
+}
+@media (min-width:1100px){
+.logo{
+    max-width: 20rem;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.merchimages{
+    display: flex;
+   flex-direction: row;
+    margin: 3rem;
+    max-width: 30rem;
+}
+.bestdeals{
+    max-width: 25rem;
+    margin-left: 40%;
+    
+}
+.merchpage{
+    display: flex;
+    flex-direction: row;
+     margin: 3rem;
+     max-width: 30rem;
+}
+.form{
+    max-width: 30rem;
+    margin-left: 35%;
+}
+.troy p, .abed p, .abouttheshow p{
+    max-width: 50rem;
+}
+}
